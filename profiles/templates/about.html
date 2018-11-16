@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<h1>About Smartkart</h1>
+<p>Smartkart is a simple ecommerce website. The front-end of this website is made on HTML and CSS</p>
+<p>The back-end of this wesite is develope in Django which is a python framework.</p>
+<p>User can purchase products after creating account in the smartkart</p>
+<p>The checkout system is made on Stripe</p>
+<p>Please choose contact option for any inconvinience</p>
+<p> <a class=" btn btn-default button secondaryAction" href="{% url 'contact' %}">Contact Now</a></p>
+{% endblock %}
